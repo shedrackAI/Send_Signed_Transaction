@@ -1,12 +1,12 @@
 const { ethers } = require("ethers");
 
-const INFURA_ID = 'dbee5a9cdd864392bd99f204bd74de53'
+const INFURA_ID = 'ADD YOU INFURA ID'
 const provider = new ethers.providers.JsonRpcProvider(`https://kovan.infura.io/v3/${INFURA_ID}`)
 
-const account1 = '0x10dC891312d60F6612200590dE40A7243e2238A6'; // sender
-const account2 = '0xf590150865ebc5bb7711d614e7001e9b166402Ac'; // recipient
+const account1 = 'ADD YOUR WALLET 1'; // sender
+const account2 = 'ADD YOUR WALLET 2'; // recipient
 
-const privateKey1 = 'fc0ffb63b1e40416a0abbf2e387a52e07b2ded82c307e8c6f0cf06d0cc3e5deb'; // sender private key
+const privateKey1 = 'Add your private key'; // sender private key
 const wallet = new ethers.Wallet(privateKey1, provider);
 
 const main = async () => {
